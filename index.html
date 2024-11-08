@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Functional Web App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+  <body>
+    <!-- Navbar with Hamburger Menu -->
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="logo.svg" alt="" />
+          <span>SunRise Yachts</span>
+        </div>
+        <button class="hamburger-menu">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="marquee">
+      <p>Book the best yacht for you and your family to enjoy your vacations</p>
+    </div>
+    <!-- Image Slider -->
+    <section id="slider">
+      <div class="slider-container">
+        <button class="slider-btn prev">Prev</button>
+        <div class="slides">
+          <img
+            src="https://media.istockphoto.com/id/1874145819/photo/yacht-cruising-fast-in-sea.webp?s=2048x2048&w=is&k=20&c=e2mmcY-CkhnkM988LtLQAdQNhjfA7eDvs7jsr2kLG2s="
+          />
+          <img
+            src="https://plus.unsplash.com/premium_photo-1675802755792-a7cfd346b5be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+          <img
+            src="https://media.istockphoto.com/id/1978588900/photo/aerial-view-of-sea-blue-waters-and-coast-of-brighton-east-sussex-uk.webp?s=2048x2048&w=is&k=20&c=dnN9clYnw4n-aHnLEelNukJsbnG2XSTm73mKjcFWYt4="
+          />
+        </div>
+        <button class="slider-btn next">Next</button>
+      </div>
+    </section>
+
+    <!-- Tab Section -->
+    <section id="tabs">
+      <h2>Take a look at your beautiful Yachts</h2>
+      <div class="tab-buttons">
+        <button class="tab-btn" data-tab="1">Luxurious Yachts</button>
+        <button class="tab-btn" data-tab="2">Mid-range Yachts</button>
+        <button class="tab-btn" data-tab="3">Budget Friendly Yachts</button>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane" data-content="1" data-images="https://images.unsplash.com/photo-1674606878551-f424ad6ce965?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D,https://images.unsplash.com/photo-1535078035266-a0fa7d3b8f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D,https://images.unsplash.com/photo-1674606867480-a3f97bd91533?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D, https://plus.unsplash.com/premium_photo-1663050975274-58f0a7ceca08?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHlhY2h0JTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D">
+          <div>
+            <h1>The Ultimate Luxury of a 60-Foot Motor Yacht</h1>
+            <p>
+              A 60-foot motor yacht represents the pinnacle of luxury and
+              performance on the water, combining the allure of a sleek,
+              sophisticated design with the powerful capabilities of a
+              world-class vessel. This type of yacht is ideally suited for those
+              who value both style and functionality, offering an exceptional
+              experience for families and friends who love coastal cruising,
+              weekend getaways, and even extended trips on the open sea.
+              Spacious and versatile, this motor yacht provides a seamless blend
+              of indoor and outdoor living spaces, allowing guests to enjoy the
+              finest amenities in complete comfort. Equipped with
+              state-of-the-art technology, luxurious furnishings, and impressive
+              performance, it sets a new standard for yacht enthusiasts.
+              <span class="more-content"
+                >One of the defining features of a 60-foot motor yacht is its
+                thoughtfully designed layout, maximizing both living and
+                entertainment areas. The main deck is often dedicated to an
+                open-concept salon with expansive seating and panoramic windows,
+                allowing natural light to pour in and offering breathtaking
+                views. Plush sofas, modern decor, and advanced entertainment
+                systems create an inviting space for social gatherings or
+                relaxation. This yacht’s galley, usually found on the same
+                level, is fully equipped with premium appliances, making meal
+                preparation a delight whether you’re at anchor or cruising
+                through the waves.
+              </span>
+            </p>
+            <button class="read-more">read more...</button>
+            <div class="thumbnails">
+              <img src="https://images.unsplash.com/photo-1674606878551-f424ad6ce965?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 1" class="thumbnail">
+              <img src="https://images.unsplash.com/photo-1535078035266-a0fa7d3b8f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 2" class="thumbnail">
+              <img src="https://images.unsplash.com/photo-1674606867480-a3f97bd91533?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 3" class="thumbnail">
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+        <div class="tab-pane" data-content="2" data-images="https://images.unsplash.com/photo-1674606878551-f424ad6ce965?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D,https://images.unsplash.com/photo-1535078035266-a0fa7d3b8f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D,https://images.unsplash.com/photo-1674606867480-a3f97bd91533?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D, https://plus.unsplash.com/premium_photo-1663050975274-58f0a7ceca08?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHlhY2h0JTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D">
+          <div>
+            <h1>Best combination for a luxury and a budget friendly yacht</h1>
+            <p>
+              A mid-range yacht, typically spanning 40 to 50 feet, offers an
+              excellent balance of luxury, performance, and affordability,
+              making it ideal for families or small groups seeking an accessible
+              yet upscale boating experience. This type of yacht provides ample
+              space for comfortable cruising, often featuring well-designed
+              indoor and outdoor areas that maximize every inch. Inside, you’ll
+              usually find a cozy salon with seating for relaxation, a
+              functional galley for easy meal preparation, and a master suite
+              along with one or two additional guest cabins, making overnight
+              stays enjoyable. These yachts are equipped with quality materials
+              and stylish finishes, combining comfort with functionality, and
+              often include practical amenities like en-suite bathrooms and air
+              conditioning.<span class="more-content"
+                >On the exterior, a mid-range yacht usually boasts a welcoming
+                aft deck for casual dining and socializing, as well as a swim
+                platform for easy access to the water, perfect for families who
+                enjoy water activities. Many also include a flybridge, providing
+                an elevated space for enjoying panoramic views and making the
+                cruising experience more enjoyable. With manageable fuel
+                efficiency and straightforward handling, mid-range yachts are
+                well-suited for coastal adventures, island hopping, and weekend
+                getaways, allowing owners to explore a variety of destinations
+                without extensive operating costs. Designed with a focus on
+                reliability and ease of use, this yacht class is ideal for both
+                new and seasoned boaters looking for a taste of the yachting
+                lifestyle, offering an accessible gateway to luxury on the
+                water.</span
+              >
+            </p>
+            <button class="read-more">read more...</button>
+            <div class="thumbnails">
+              <img src="https://images.unsplash.com/photo-1674606878551-f424ad6ce965?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 1" class="thumbnail">
+              <img src="https://images.unsplash.com/photo-1535078035266-a0fa7d3b8f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 2" class="thumbnail">
+              <img src="https://images.unsplash.com/photo-1674606867480-a3f97bd91533?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 3" class="thumbnail">
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1709454972788-8dd8cf057fc3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+        <div class="tab-pane" data-content="3" data-images="https://images.unsplash.com/photo-1674606878551-f424ad6ce965?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D,https://images.unsplash.com/photo-1535078035266-a0fa7d3b8f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D,https://images.unsplash.com/photo-1674606867480-a3f97bd91533?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D, https://plus.unsplash.com/premium_photo-1663050975274-58f0a7ceca08?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHlhY2h0JTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D">
+          <div>
+            <h1>Look at best budget friendly yacht to save your balance</h1>
+            <p>
+              A budget-friendly yacht, typically in the 25 to 35-foot range, is
+              an excellent choice for those looking to enter the yachting world
+              without a significant investment. Compact yet versatile, this type
+              of yacht offers essential amenities for day trips and weekend
+              getaways, providing an enjoyable experience for families and small
+              groups. Despite its smaller size, a budget-friendly yacht is
+              thoughtfully designed to maximize space, often including a cozy
+              cabin with convertible seating, a compact galley, and a functional
+              bathroom, ensuring comfort for short stays on the water.
+              <span class="more-content"
+                >On deck, you’ll find an open, user-friendly layout that makes
+                movement easy and provides plenty of seating, with some models
+                featuring an aft deck or swim platform for water access and
+                recreational activities. These yachts are also known for their
+                efficient fuel consumption, low maintenance costs, and ease of
+                handling, making them ideal for beginners or occasional boaters.
+                The straightforward design and accessible price point make these
+                yachts perfect for enjoying coastal cruising, lake trips, or
+                leisurely days exploring nearby islands. With just the right mix
+                of practicality and comfort, a budget-friendly yacht offers a
+                gateway to the boating lifestyle, allowing owners to enjoy the
+                freedom of the open water without stretching their budget.
+                Whether used for family outings, fishing, or relaxing days on
+                the water, this yacht type delivers a satisfying experience that
+                balances affordability with essential features.</span
+              >
+            </p>
+            <button class="read-more">read more...</button>
+            <div class="thumbnails">
+              <img src="https://images.unsplash.com/photo-1674606878551-f424ad6ce965?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 1" class="thumbnail">
+              <img src="https://images.unsplash.com/photo-1535078035266-a0fa7d3b8f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 2" class="thumbnail">
+              <img src="https://images.unsplash.com/photo-1674606867480-a3f97bd91533?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eWFjaHQlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 3" class="thumbnail">
+            </div>
+          </div>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1712067481597-ee8a2ff6fbef?q=80&w=2056&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </div>
+
+     <!-- Slider Modal -->
+<div id="slider-modal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div class="slider">
+      <!-- Images will be dynamically injected here -->
+    </div>
+    <button class="prev-slide">❮</button>
+    <button class="next-slide">❯</button>
+  </div>
+</div>
+    </section>
+
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+    
+      <!-- FAQ Boxes -->
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>What is a yacht?</p>
+          <span class="toggle-btn">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>A yacht is a recreational boat or ship, often used for luxurious activities like cruising, relaxation, and leisure.</p>
+        </div>
+      </div>
+    
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>How do I maintain a yacht?</p>
+          <span class="toggle-btn">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>Yacht maintenance includes regular cleaning, engine checks, hull inspections, and ensuring all systems are functioning properly.</p>
+        </div>
+      </div>
+    
+      <div class="faq-box">
+        <div class="faq-question">
+          <p>Can I rent a yacht for a day?</p>
+          <span class="toggle-btn">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, many yacht rental services offer daily rental options for those looking to experience the luxury of a yacht for a short time.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Contact Information -->
+        <div class="footer-section contact-info">
+          <h3>Contact Us</h3>
+          <p>123 Yacht Avenue, Marina Bay, Ocean City</p>
+          <p>Email: info@yachtsite.com</p>
+          <p>Phone: +1 234 567 890</p>
+        </div>
+    
+        <!-- Quick Links -->
+        <div class="footer-section quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="yachts.html">Yachts</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+    
+        <!-- Social Media Icons -->
+        <div class="footer-section social-media">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+    
+        <!-- Newsletter Subscription -->
+        <div class="footer-section newsletter">
+          <h3>Subscribe to our Newsletter</h3>
+          <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 YachtSite. All Rights Reserved.</p>
+      </div>
+    </footer>
+    
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

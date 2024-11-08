@@ -1,0 +1,13 @@
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" id="boat">
+          <defs>
+            <linearGradient xlink:href="#a" id="b" x1="992.183" x2="1019.298" y1="516.081" y2="545.959" gradientTransform="translate(-886.245 559.767)scale(.89708)" gradientUnits="userSpaceOnUse"></linearGradient>
+            <linearGradient id="a">
+              <stop offset="0" stop-color="#ff1679"></stop>
+              <stop offset="1" stop-color="#ff770b"></stop>
+            </linearGradient>
+          </defs>
+          <g transform="translate(0 -1020.362)">
+            <rect width="28" height="28" x="2" y="1022.362" fill="url(#b)" rx="5.917" ry="5.917"></rect>
+            <path fill="#fff" d="M15.482 1029.167a.5.5 0 0 0-.418.252l-4 7a.5.5 0 0 0 .434.748h3.5v1h-5.5a.5.5 0 0 0-.5.5v2.36c-.047-.039-.096-.073-.139-.116a.5.5 0 0 0-.713.703 2.509 2.509 0 0 0 1.787.748c.582 0 1.072-.331 1.516-.695.444.363.935.695 1.516.695a.5.5 0 0 0 .002 0c.581 0 1.07-.331 1.515-.695.445.363.935.695 1.516.695.58 0 1.071-.332 1.516-.695.444.364.934.695 1.515.695a.5.5 0 0 0 .002 0c.581 0 1.072-.332 1.516-.695.096.079.196.154.297.226a.5.5 0 0 0 .318.2c.278.156.573.269.9.27.696 0 1.332-.287 1.788-.749a.5.5 0 1 0-.713-.703c-.265.268-.621.431-1.02.445a4.518 4.518 0 0 0 .875-2.584.5.5 0 0 0-.404-.597.5.5 0 0 0-.006 0 .5.5 0 0 0-.049-.01.5.5 0 0 0-.035 0h-6.5v-1h2.5a.5.5 0 0 0 .43-.758l-2.93-4.877v-1.863a.5.5 0 0 0-.516-.5zm-.484 2.38v4.618h-2.639l2.639-4.617zm1 1.925 1.617 2.695h-1.617v-2.695zm-6 5.695h11.95a3.477 3.477 0 0 1-.843 1.84 1.479 1.479 0 0 1-.18-.168.5.5 0 0 0-.755 0 1.51 1.51 0 0 1-1.139.523c-.435 0-.849-.189-1.139-.523a.5.5 0 0 0-.755 0c-.29.334-.704.523-1.14.523-.434 0-.848-.189-1.138-.523a.5.5 0 0 0-.756 0c-.289.334-.702.522-1.136.523a1.51 1.51 0 0 1-1.141-.523.5.5 0 0 0-.398-.172.5.5 0 0 0-.358.172 1.502 1.502 0 0 1-1.072.515v-2.187z" color="#000" font-family="sans-serif" font-weight="400" overflow="visible" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal"></path>
+          </g>
+        </svg>
